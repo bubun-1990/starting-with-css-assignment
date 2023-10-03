@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        input, textarea, select {
+            color: rgb(85, 0, 255);
+        }
+        button {
+            background-color: red;
+            color:black;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="main">Login Form</h1>
+    <form action="./login.js" method="get">
+        <label for="Username">Username</label>
+        <input placeholder="username" type="text" name="usename" id="username" style="background-color: rgba(100, 100, 45, 2);">
+    
+        <label for="Password">Password</label>
+        <input placeholder="password" type ="text" name="password" id="password" style="background-color: rgba(100, 100, 45, 2);">
+
+        
+
+        <textarea name="" id="" cols="30" rows="10" style="border: 3px solid red;"></textarea>
+
+        <select name="" id="">
+            <option value="One">One</option>
+            <option value="Two">Two</option>
+            <option value="Three">Three</option>
+        </select>
+
+        <input type="color" name="Check Colour" id="">
+
+        <input type="file" name="" id="">
+        
+        <label for="">Hidden</label>
+        <input type="hidden" value="yegyugjgdhghg" name="sessiondata">
+
+        <button type="submit" >Submit</button>
+
+        <input type="date" name="" id="">
+
+    </form>
+</body>
+</html>
